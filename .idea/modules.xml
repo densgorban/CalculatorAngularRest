@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/CalculatorAngular.iml" filepath="$PROJECT_DIR$/.idea/CalculatorAngular.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rest/calculator-rest-api.iml" filepath="$PROJECT_DIR$/rest/calculator-rest-api.iml" />
     </modules>
   </component>
 </project>
