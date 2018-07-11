@@ -1,0 +1,28 @@
+<mat-card class="calculator-block">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>{{title}}</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    {{value}}
+    <button class="clean-button" (click)="clear()">clear</button>
+  </mat-card-content>
+  <div class="calculator-place">
+    <button class="calc-button" (click)="update('1')">1</button>
+    <button class="calc-button" (click)="update('2')">2</button>
+    <button class="calc-button" (click)="update('3')">3</button>
+    <button class="calc-button" (click)="operation('SUM')" mat-button>+</button>
+    <button class="calc-button" (click)="update('4')">4</button>
+    <button class="calc-button" (click)="update('5')">5</button>
+    <button class="calc-button" (click)="update('6')">6</button>
+    <button class="calc-button" (click)="operation('SUB')" mat-button>-</button>
+    <button class="calc-button" (click)="update('7')">7</button>
+    <button class="calc-button" (click)="update('8')">8</button>
+    <button class="calc-button" (click)="update('9')">9</button>
+    <button class="calc-button" (click)="operation('MULT')" mat-button>*</button>
+    <button class="calc-button" (click)="update('0')">0</button>
+    <button class="calc-button" (click)="update('.')">.</button>
+    <button class="calc-button" (click)="operation('EQ')" mat-button>=</button>
+    <button class="calc-button" (click)="operation('DIV')" mat-button>/</button>
+  </div>
+</mat-card>
